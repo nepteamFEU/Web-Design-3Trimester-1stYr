@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Formative Assessment 7</title>
+    <script src="TFA7.js"></script>
+    <link rel="stylesheet" href="TFA7.css">
+</head>
+<body>
+    <button id="firstButton" onmouseover="changeText()" onmouseout="resetText()">Number 1</button> <br>
+    <button id="secondButton" onmouseover="changeColor()" onmouseleave="changeColor()"> Number 2 </button> <br>
+    <button id="thirdButton" onmouseover="thirdMouseover()" onmousedown="thirdMousedown()" onmouseup="thirdDefault()"> Number 3</button> <br>
+    <button id="fourthButton" onmouseover="fourthMouseover()" onmousedown="fourthMousedown()" onmouseup="fourthDefault()"> Number 4</button> <br>
+    <button id="fifthButton" onclick="fifthCountdown()"> Number 5 </button> <br> <br>
+    <hr>
+    
+    Full Name: <input type="text" id="nameInput" placeholder="Lastname, Firstname, MI"><br>
+    Age: <input type="number" id="ageInput" placeholder="18"> <br>
+    Birth Date: <input type="date" id="birthdayInput"> <br>
+    Address: <input type="text" id="addressInput" placeholder="Wood District, Corporate Woods"> <br>
+    <button id="validate" onclick="checkInput()"> Submit </button><br>
+    <hr>
+    <h2>Grade Checker:</h2>
+<input type="text" id="grade" class="grade" placeholder="69"><br>
+<button id="gradeChecker" onclick="gradeCheck(document.getElementById('grade').value)" class="gradebutton">Submit Grade</button>
+</body>
+</html>

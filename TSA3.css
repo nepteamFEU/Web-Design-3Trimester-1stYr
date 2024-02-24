@@ -1,0 +1,191 @@
+.container-fluid
+{
+    margin: auto;
+}
+.navBar
+{
+    display: flex;
+    background: linear-gradient(90deg, rgb(145, 183, 125) 0%, rgb(101, 117, 87) 100%);
+    justify-content: space-evenly;
+    
+}
+
+.col-sm-8 > h2 > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.col-sm-8 > h2 > a:hover
+{
+    text-decoration: underline;
+}
+
+.col-sm-12 > a > h2
+{
+    text-decoration: none;
+    color: black;
+}
+
+.col-sm-12 > h2 > a:hover
+{
+    text-decoration: underline;
+}
+
+
+.titleScreen
+{
+    display: flex;
+    background: linear-gradient(90deg, rgba(254,149,37,1) 24%, rgba(212,220,129,1) 93%);
+    min-height: 175px;
+    max-height: 375px;
+    justify-content: center;
+}
+
+.title
+{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    place-self: center;
+    text-align: center;
+}
+
+.SubtitleScreen
+{
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-sm-4
+{
+    padding-top: 20px;
+}
+
+.Product
+{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 7px #888888;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.ProductImage > img
+{
+    max-width: 175px;
+    max-height: 175px;
+}
+
+ul
+{
+    text-align: left;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Product > img
+{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.Feature
+{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(144, 238, 144, 0.235);
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 7px #888888;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Feature > img
+{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.ContactUs
+{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    place-self: center;
+    color: white;
+}
+
+.ProductContact
+{
+    margin-top: 50px;
+    display: flex;
+    background: linear-gradient(90deg, rgb(18, 20, 15) 24%, rgb(46, 63, 5) 93%);
+    min-height: 250px;
+    max-height: 375px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ContactButton
+{
+text-align: center;
+}
+
+.col-sm-12 > .ContactButton > input
+{
+    background-color: green;
+    border: 0px;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 18px;
+}
+
+.ProductFooter
+{
+    background-color: bisque;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-sm-3
+{
+    background-color: bisque;
+}
+
+.Footer1
+{
+    padding: 6px;
+}
+
+.col-sm-12 > a > img
+{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.SocialMedia .col-sm-12 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px; /* Adjust the value as needed */
+}
+
+.SocialMedia img {
+    margin-right: 1px; /* Adjust the value as needed */
+}
+
+.SignUp .col-sm-3
+{
+    font-family: Arial, Helvetica, sans-serif;
+}

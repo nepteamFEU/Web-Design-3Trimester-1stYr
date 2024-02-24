@@ -1,0 +1,107 @@
+p
+{
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.logoFEU > img
+{
+    max-width:  100%;
+    max-height: 100%;
+    background-color: darkgreen;
+}
+
+.sidebarBG
+{
+    background-color: darkgreen;
+}
+
+.accICON > img
+{
+    max-width:  35px;
+    max-height: 35px;
+    border-radius: 35px;
+    
+}
+
+.navICON > img
+{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.navICON > a > img
+{
+    align-items: center;
+    
+    font-size: large;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.navICON > a
+{
+    color: white;
+}
+
+.navICON
+{
+    background-color: darkgreen;
+    padding: 4%;
+    
+}
+
+.actualContent
+{
+    margin-left: 4%;
+}
+
+.actualCourse
+{
+    
+    background-color: aliceblue;
+    border: 5px;
+    border-color: black;
+    align-items: center;
+
+}
+
+.actualCourse > img
+{
+    max-width: 100%;
+    max-height:40%;
+    opacity: .4;
+}
+
+.actualCourse > p
+{
+    margin-left: 10%;
+    
+}
+
+.col-sm-3
+{
+    padding-bottom: 4%;
+}
+
+.CICON > img
+{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    max-width: 12%;
+    max-height: 12%;
+}
+
+h7
+{
+    font-weight: bold;
+}
+
+h6
+{
+    font-size: large;
+}
+
+h8
+{
+    color: grey;
+}
